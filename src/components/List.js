@@ -2,6 +2,16 @@ import React from "react";
 import Event from "./Event";
 import "./List.css";
 
+const logger = select => {
+  const logged = {};
+  for (let i = 0; i < select.length; i++) {
+    if (!logged[select[i]]) {
+      logged[select[i]] = true;
+    }
+  }
+  return Object.keys(logged);
+};
+
 class List extends React.Component {
   constructor(props) {
     super(props);
@@ -13,8 +23,6 @@ class List extends React.Component {
   }
 
   handleChange = event => {
-    this.setState({ search: event.target.value });
-
     const isMatched = new RegExp(this.state.search, "i");
     const events = this.props.events.filter(
       ({ VenueName, VenueCity }) =>
@@ -23,6 +31,7 @@ class List extends React.Component {
         VenueName.includes(this.state.search)
     );
     this.setState({
+      search: event.target.value,
       eventsFiltered: events
     });
   };
@@ -34,6 +43,18 @@ class List extends React.Component {
         <div className="main main-raised main-translucent">
           <div className="section">
             <div className="container">
+              {/* Uncomment this to Select cities (Part 2)
+
+              <select className="form-control" onChange={this.handleChange}>
+                <option value="">Select Location</option>
+                {logger(
+                  this.props.events.map(({ VenueCity }) => VenueCity)
+                ).map(city => (
+                  <option key={city} value={city}>
+                    {city}
+                  </option>
+                ))}
+              </select> */}
               <div className="input-group mt-5">
                 <div className="input-group-prepend bg-dark b-dark">
                   <div className="b-dark input-group-text bg-dark text-white">
