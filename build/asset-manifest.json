@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.4889df45.chunk.css",
+    "main.js": "/static/js/main.c20552aa.chunk.js",
+    "main.js.map": "/static/js/main.c20552aa.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.657fc696.js",
+    "runtime~main.js.map": "/static/js/runtime~main.657fc696.js.map",
+    "static/js/2.11e21717.chunk.js": "/static/js/2.11e21717.chunk.js",
+    "static/js/2.11e21717.chunk.js.map": "/static/js/2.11e21717.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.b330819fab28d7af0d7874e7b50eb229.js": "/precache-manifest.b330819fab28d7af0d7874e7b50eb229.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.4889df45.chunk.css.map": "/static/css/main.4889df45.chunk.css.map",
+    "static/media/ArtistBio.css": "/static/media/elton.59785ed4.jpg",
+    "static/media/App.css": "/static/media/stage2.8a855a94.jpg",
+    "static/media/vgg.png": "/static/media/vgg.583349ea.png"
+  }
+}
