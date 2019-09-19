@@ -1,8 +1,6 @@
 ## Viagogo Challenge
 Christopher Choi
 
-### Deployed
-https://vgg-task.herokuapp.com/
 
 ### Setup
 1. Fork & Clone repository
@@ -21,5 +19,8 @@ https://vgg-task.herokuapp.com/
 
      - It is inconvenient to scroll through a large list of locations to select and option of where you want to look. A better implimentation is to use a search engine to filter out the list of locations by having the user type out the location of where the events are held. It is more efficient and removes excess clutter when browsing events.
 
+
+### Deployed
+https://vgg-task.herokuapp.com/
 
 
