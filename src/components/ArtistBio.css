@@ -1,10 +1,11 @@
 .ArtistBio {
   margin-top: 10vh;
-  height: 50vh;
+  height: 70vh;
   background-image: linear-gradient(rgba(46, 53, 54, 0.5), rgba(34, 54, 92, 0.5)),
      url('../img/elton.jpg');
   background-size: cover;
   text-align: left;
+  width: 100%;
 }
 
 
@@ -15,7 +16,21 @@
 
 @media screen and (max-width: 600px) {
   #elton {
-    margin-left: 25px;
+    margin-left: 20px;
+  }
+
+  .ArtistBio {
+    margin-top: 5vh;
+    height: 50vh;
+    background-image: linear-gradient(rgba(46, 53, 54, 0.5), rgba(34, 54, 92, 0.5)),
+       url('../img/elton.jpg');
+    background-size: cover;
+    text-align: left;
+    width: auto;
+  }
+
+  #desc {
+    margin-left: 20px;
   }
 
 
