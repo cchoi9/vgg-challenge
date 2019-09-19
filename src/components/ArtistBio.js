@@ -4,7 +4,7 @@ import "./ArtistBio.css";
 export default function ArtistBio() {
   return (
     <div className="ArtistBio text-white row">
-      <div className="col-lg-6 col-12"></div>
+      <div className="col-lg-6"></div>
       <div id="elton" className="col-lg-6 col-12">
         <h3 className="display-4 mt-5">Elton John</h3>
         <p id="desc" className="lead mr-5">
