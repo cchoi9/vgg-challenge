@@ -67,7 +67,7 @@ class List extends React.Component {
                   onChange={this.handleChange}
                   className="form-control bg-dark text-white"
                   id="inlineFormInputGroup"
-                  placeholder="Search event or venue..."
+                  placeholder="Search location or venue..."
                 />
               </div>
               <table className="table table-hover mt-5 w-100">

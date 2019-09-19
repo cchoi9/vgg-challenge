@@ -12,3 +12,11 @@
   font-size: 1em;
   text-align: left;
 }
+
+@media screen and (max-width: 600px) {
+  #elton {
+    margin-left: 30px;
+  }
+
+
+}
