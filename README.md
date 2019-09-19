@@ -8,7 +8,6 @@ Christopher Choi
 1. Fork & Clone repository
 
 2. `npm install` all dependencies inside `vgg-challenge` 
-`npm start`
 
 3. In order to view on local machine `npm start` in terminal
 
