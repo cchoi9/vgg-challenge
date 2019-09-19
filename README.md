@@ -2,7 +2,7 @@
 Christopher Choi
 
 ### Deployed
-pending
+https://vgg-task.herokuapp.com/
 
 ### Setup
 1. Fork & Clone repository
@@ -19,7 +19,7 @@ pending
    - Tell us about the possible reasons that the filter your implemented in part 2 did not help the customer experience.
      What could you change to improve the filter experience, and why do you think it would be better for the customer?
 
-     - It is inconvenient to scroll through a large list of locations to select where you want to look, it is better to impliment a search engine to filter out the list of locations by having the user type out the location of where the events are held.
+     - It is inconvenient to scroll through a large list of locations to select and option of where you want to look. A better implimentation is to use a search engine to filter out the list of locations by having the user type out the location of where the events are held. It is more efficient and removes excess clutter when browsing events.
 
 
 
