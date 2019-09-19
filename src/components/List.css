@@ -1,0 +1,29 @@
+.Header {
+  position: relative;
+  top: 0;
+  left: 0;
+  height: 100vh;
+}
+
+.elton{
+  margin-top: 10vh;
+  height: 50vh;
+  /* height: auto;
+  width: 100%; */
+}
+/*
+.header-content {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+} */
+
+/* .header-text {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 2em;
+
+} */

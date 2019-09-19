@@ -1,0 +1,28 @@
+.navbar {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.473);
+  background-color: rgb(143, 190, 143);
+  color: rgb(170, 230, 170);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  opacity: 0.90;
+  z-index: 2;
+}
+.navbar img {
+  height: auto;
+  width: 30%;
+  position: relative;
+  color: black !important;
+}
+
+
+/* .nav-link {
+  color: black !important;
+} */
+
+/* .nav-link:hover {
+  color: white;
+  font-weight: thin;
+  text-decoration: none;
+  border-bottom: 2px solid black;
+} */
